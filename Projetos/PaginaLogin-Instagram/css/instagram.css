@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+body{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    overflow-x: ;
+}
+
+.insta-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+
+}
+.insta-imgcel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.insta-continuar{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.quadro{
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 2.2rem 0rem;
+    border: 1px solid lightgrey;
+}
+.baixarapp{
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.quadro:nth-child(1){
+    min-height: 19rem;
+}
+
+input{
+    border: 1px solid lightgrey;
+    height: 30px;
+    width: 80%;
+    border-radius: 5%;
+}
+
+button{
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    background-color: lightblue;
+    width: 80%;
+    height: 30px;
+    font-weight: bolder;
+}
+.divisao{
+    color: rgb(168, 168, 168);
+    font-weight: bold;
+    width: 90%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+}
+
+.line{
+    margin: 5%;
+    padding: 0 3em;
+    border: 1px solid lightgrey;
+    width: 100%;
+    color: lightgray;
+    
+}
+.logotipo{
+    margin: 5%;
+    height: 3rem;
+}
+
+.logofacebook{
+    width: 16px;
+    height: 16px;
+}
+.login-facebook{
+    color: rgb(56, 81, 133);
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+.esqueceu-senha{
+    color: rgb(56, 81, 133);
+    font-size: 11px;
+}
+.cadastrar{
+    color: #0095f6;
+    font-weight: bold;
+}
+
+.baixarapp{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.imgapp{
+    height: 3rem;
+    width: 10rem;
+}
+
+@media (max-width:1024px){
+    .insta-container{
+        width: 90%;
+    }
+}
+
+@media (max-width:800px){
+    body{
+        background-color: #ffffff;
+    }
+    .insta-container{
+        width: 90%;
+    }
+    .insta-imgcel{
+        display: none;
+    }
+    .insta-continuar{
+        width: 100%;
+        min-width: 290px;
+        overflow-x: auto;
+    }
+    .quadro{
+        border: 1px solid transparent;
+    }
+}

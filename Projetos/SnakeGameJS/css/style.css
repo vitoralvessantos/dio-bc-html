@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+main canvas{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}

@@ -40,7 +40,7 @@ header nav a:hove{
 
 .filme-principal{
     font-size: 14px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,100%)), url('../img/coverbb.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,100%)), url('../img/cover2bb.jpg');
     background-position: center;
     height: 400px;
     background-size: cover; /*Redimensiona o background ocupar o espaço de forma uniforme, sem distorcer a imagem*/
@@ -59,6 +59,7 @@ header nav a:hove{
     width: 70%;
     margin-top: 10px;
     margin-bottom: 40px;
+    
 }
 
 .botao{
@@ -83,6 +84,7 @@ header nav a:hove{
 
 .container{
     margin-left: 20px;
+    
 }
 
 .filme-principal .container{

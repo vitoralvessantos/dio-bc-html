@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{ 
+    height: 50px;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    height: 100vh;
+    margin: auto;
+}
+
+.menuesquerdo{
+    background-color: lightgreen;
+    border-style: solid;
+    border-width: 2px;
+    width: 20vh;
+    height: 100vh;
+}
+
+.menudireito{
+    background-color: lightgreen;
+    border-style: solid;
+    border-width: 2px;
+    width: 20vh;
+    height: 100vh;
+}
+
+.conteudo{
+    background-color: lightblue;
+    margin: 0 10%;
+    border-style: solid;
+    border-width: 2px;
+    width: 50vh;
+    height: 100vh;
+}
+.nova-publicacao{
+    display: inline;
+}
+.textarea{
+    border: 1px solid;
+    background-color: gray;
+
+}
+.btn-publicar{
+    border: 1px solid;
+    background-color: aqua;
+    float: right;
+}
